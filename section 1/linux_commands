@@ -1,0 +1,5 @@
+vi sha256.zok // to create a file
+zokrates compile -i sha256.zok //compliation
+zokrates setup 
+zokrates compute-witness -a 0 0 0 1129529685 285551088474675990519063903894825317322 192916772619636604765586326883831074249
+zokrates verify //verification
